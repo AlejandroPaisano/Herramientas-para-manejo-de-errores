@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1693283140 source:d:\osvaldo\documents\dibujos\semestre 9\tolerante a fallas\otras herramientas\main.cpp
+	<iostream>
+	<stdexcept>
+	<cmath>
+
