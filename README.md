@@ -17,7 +17,8 @@ Aqui tambien esta el uso de un throw, que nos permite devolver una excepcion de 
 
 Ahora podemos observar para comprobar si los datos recibidos son numeros usamos la funcion esnum, que nos hace uyn throw a un error que es solo una constante char, claro que como esto esta dentro de un throw, el programa regresa rapidamente a la fase de seleccion, evitandonos tener que ejecutar codigo innecesario.
 
-![esnum](https://github.com/AlejandroPaisano/Herramientas-para-manejo-de-errores/assets/91223611/109c11c3-275d-44fe-91ea-62a625902481)
+![cero](https://github.com/AlejandroPaisano/Herramientas-para-manejo-de-errores/assets/91223611/74b7076f-92fe-4db0-bd06-adb4d6ef08f3)
+
 
 Ahora tenemos un uso de la misma funcion que comprueba si lo que hemos introducido son numeros validos, pero ahora solo se encarga de comprobar que lo que hayamos introducido en el lugar del divisor sea diferente de un 0.
 [cero](https://github.com/AlejandroPaisano/Herramientas-para-manejo-de-errores/assets/91223611/ff65c401-2619-4af6-af1b-da0360626f6e)
