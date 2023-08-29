@@ -14,3 +14,17 @@ En primera instancia, debemos aclarar cual es la funcion base del programa, en e
 Aqui tambien esta el uso de un throw, que nos permite devolver una excepcion de tipo out of range, solo para encargarnos de que el usuario introduzca un numero que salga de las opciones del menu, o que introduzca numeros mayores a 1e7
 
 ![prueba](https://github.com/AlejandroPaisano/Herramientas-para-manejo-de-errores/assets/91223611/071aedda-6542-4a33-b600-5230ce3bdadc)
+
+Ahora podemos observar para comprobar si los datos recibidos son numeros usamos la funcion esnum, que nos hace uyn throw a un error que es solo una constante char, claro que como esto esta dentro de un throw, el programa regresa rapidamente a la fase de seleccion, evitandonos tener que ejecutar codigo innecesario.
+
+![esnum](https://github.com/AlejandroPaisano/Herramientas-para-manejo-de-errores/assets/91223611/109c11c3-275d-44fe-91ea-62a625902481)
+
+Ahora tenemos un uso de la misma funcion que comprueba si lo que hemos introducido son numeros validos, pero ahora solo se encarga de comprobar que lo que hayamos introducido en el lugar del divisor sea diferente de un 0.
+[cero](https://github.com/AlejandroPaisano/Herramientas-para-manejo-de-errores/assets/91223611/ff65c401-2619-4af6-af1b-da0360626f6e)
+
+Nuestro ultimo ejemplo es un underflow dentro de la funcion de root, para ello simplemente revisamos que el numero introducido sea mayor a 0, para asi ahorrarnos problemas con numeros imaginarios y simplificaremos la ejecucucion de las raices.
+![underflow](https://github.com/AlejandroPaisano/Herramientas-para-manejo-de-errores/assets/91223611/aad75fa4-01e2-44da-bb68-23ffe82358cc)
+
+
+#conclusion
+
